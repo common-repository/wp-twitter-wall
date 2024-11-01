@@ -1,0 +1,300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Twitter Wall\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-08 22:08+0200\n"
+"PO-Revision-Date: 2016-09-09 11:32+0200\n"
+"Last-Translator: labo <willy@wabeo.fr>\n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/TokenToMe.class.php:39
+msgid "The class is not set properly!"
+msgstr "La classe n’est pas définie correctement !"
+
+#: classes/TokenToMe.class.php:72
+msgid "Access granted ^^ !"
+msgstr "Accès autorisé ^^ !"
+
+#: classes/TokenToMe.class.php:95
+msgid ""
+"Your credentials might be unset or incorrect or username is wrong. In any "
+"case this error is not due to Twitter API."
+msgstr ""
+"Vos informations d’identification peuvent être désactivé ou incorrect ou nom "
+"d’utilisateur est incorrect. En tout cas cette erreur n’est pas due à l’API "
+"Twitter."
+
+#: classes/TokenToMe.class.php:99
+msgid "Rate limits are exceed!"
+msgstr "Les limites de fréquence sont dépasser !"
+
+#: classes/TokenToMe.class.php:105
+msgid "Twitter is overwhelmed or something bad happened with its API."
+msgstr ""
+"Twitter est débordé ou quelque chose de mauvais s’est passé avec son API."
+
+#: classes/TokenToMe.class.php:109
+msgid "Something is wrong or missing. "
+msgstr "Quelque chose est erroné ou manquant."
+
+#: classes/TokenToMe.class.php:209
+msgid "on Twitter"
+msgstr "sur Twitter"
+
+#: classes/TokenToMe.class.php:243 classes/TokenToMe.class.php:262
+msgid "name"
+msgstr "nom"
+
+#: classes/TokenToMe.class.php:244 classes/TokenToMe.class.php:263
+msgid "screen name"
+msgstr "Pseudonye"
+
+#: classes/TokenToMe.class.php:245 classes/TokenToMe.class.php:264
+msgid "tweets"
+msgstr "tweets"
+
+#: classes/TokenToMe.class.php:246 classes/TokenToMe.class.php:265
+msgid "followers"
+msgstr "abonnés"
+
+#: classes/TokenToMe.class.php:247 classes/TokenToMe.class.php:266
+msgid "followings"
+msgstr "suiveurs"
+
+#: classes/TokenToMe.class.php:248 classes/TokenToMe.class.php:267
+msgid "favorites"
+msgstr "favoris"
+
+#: classes/TokenToMe.class.php:315
+msgid "Reply"
+msgstr "Répondre"
+
+#: classes/TokenToMe.class.php:316
+msgid "Retweet"
+msgstr "Retweeter"
+
+#: classes/TokenToMe.class.php:317
+msgid "Favorite"
+msgstr "Favori"
+
+#: classes/TokenToMe.class.php:328
+msgid ""
+"This request does not exist or is not taken into account with the "
+"display_infos() method !"
+msgstr ""
+"Cette demande n’existe pas ou n’est pas prise en compte avec la méthode "
+"display_infos() !"
+
+#: twitter-wall.php:103
+#, php-format
+msgid "Report %s as spam?"
+msgstr "Marquer %s en tant que spam&nbsp;?"
+
+#: twitter-wall.php:123 twitter-wall.php:202
+#, php-format
+msgid "There are %s"
+msgstr "Il y a %s"
+
+#: twitter-wall.php:240
+msgid "Twitter Wall"
+msgstr "Mur de Tweets"
+
+#: twitter-wall.php:241 twitter-wall.php:266
+msgid "Twitter spams"
+msgstr "Spams Twitter"
+
+#: twitter-wall.php:242
+msgid "Spam Archives"
+msgstr "Archives des spams"
+
+#: twitter-wall.php:243
+msgid "Parent Item:"
+msgstr "Parent :"
+
+#: twitter-wall.php:244
+msgid "All Spams"
+msgstr "Tous les spams"
+
+#: twitter-wall.php:245
+msgid "Add New Spam"
+msgstr "Ajouter un nouveau spam"
+
+#: twitter-wall.php:246
+msgid "Add Spam"
+msgstr "Ajouter un spam"
+
+#: twitter-wall.php:247
+msgid "New Spam"
+msgstr "Nouveau spam"
+
+#: twitter-wall.php:248
+msgid "Edit Item"
+msgstr "Éditer"
+
+#: twitter-wall.php:249
+msgid "Update Item"
+msgstr "Mettre à jour"
+
+#: twitter-wall.php:250
+msgid "View Item"
+msgstr "Voir"
+
+#: twitter-wall.php:251
+msgid "Search Item"
+msgstr "Rechercher"
+
+#: twitter-wall.php:252
+msgid "Not found"
+msgstr "Introuvable"
+
+#: twitter-wall.php:253
+msgid "Not found in Trash"
+msgstr "Introuvable dans la corbeille"
+
+#: twitter-wall.php:254
+msgid "Featured Image"
+msgstr "Image à la une"
+
+#: twitter-wall.php:255
+msgid "Set featured image"
+msgstr "Mettre une image à la Une"
+
+#: twitter-wall.php:256
+msgid "Remove featured image"
+msgstr "Retirer image à la une"
+
+#: twitter-wall.php:257
+msgid "Use as featured image"
+msgstr "Utiliser comme image à la une"
+
+#: twitter-wall.php:258
+msgid "Insert into item"
+msgstr "Insérer dans l'article"
+
+#: twitter-wall.php:259
+msgid "Uploaded to this item"
+msgstr "Télécharger"
+
+#: twitter-wall.php:260
+msgid "Items list"
+msgstr "Liste"
+
+#: twitter-wall.php:261
+msgid "Items list navigation"
+msgstr "Navigation"
+
+#: twitter-wall.php:262
+msgid "Filter items list"
+msgstr "Filtrer"
+
+#: twitter-wall.php:265
+msgid "spams"
+msgstr "spams"
+
+#: twitter-wall.php:306
+#, php-format
+msgid "%s reported as spam"
+msgstr "%s marqué en tant que spam"
+
+#: twitter-wall.php:320
+msgid "Twitter username to add to spams"
+msgstr "Nom de l'utilisateur Twitter à ajouter aux spams"
+
+#: twitter-wall.php:342
+msgid "Settings"
+msgstr "Réglages"
+
+#: twitter-wall.php:342 twitter-wall.php:367
+msgid "WP Twitter Wall settings"
+msgstr "Réglages de WP Twitter Wall"
+
+#: twitter-wall.php:370
+msgid "Twitter API settings"
+msgstr "Réglages de l’API Twitter"
+
+#: twitter-wall.php:375
+msgid "Consumer key"
+msgstr "Clé d’utilisateur"
+
+#: twitter-wall.php:386
+msgid "Consumer secret"
+msgstr "Clé secrète"
+
+#: twitter-wall.php:397
+msgid "Twitterwall settings"
+msgstr "Réglages du twitterwall"
+
+#: twitter-wall.php:402
+msgid "Relative URL of twitterwall"
+msgstr "URL relative du twitterwall"
+
+#: twitter-wall.php:415
+msgid "Search query"
+msgstr "Requête de recherche"
+
+#: twitter-wall.php:427
+msgid "Search query language"
+msgstr "Language de la requête de recherche"
+
+#: twitter-wall.php:439
+msgid "Number of tweets to display"
+msgstr "Nombre de tweets à afficher"
+
+#: twitter-wall.php:452
+msgid "Twitterwall background color"
+msgstr "Couleur d’arrière-plan du Twitterwall"
+
+#: twitter-wall.php:464
+msgid "Avatar border color"
+msgstr "Couleur de bordure d’avatar"
+
+#: twitter-wall.php:491
+msgid ""
+"In order to make authorized calls to Twitter’s APIs, your website must first "
+"obtain an OAuth access token:"
+msgstr ""
+"Afin d’effectuer des appels autorisés aux API de Twitter, votre site doit "
+"d’abord obtenir un jeton d’accès OAuth :"
+
+#: twitter-wall.php:491
+msgid "Create a Twitter Apps to get my access token"
+msgstr "Créer une application Twitter pour obtenir mon jeton d’accès"
+
+#: twitter-wall.php:548
+msgid "Display Twitterwall"
+msgstr "Voir le Twitterwall"
+
+#: twitter-wall.php:586
+msgid "Twitterwall options saved"
+msgstr "Options du Twitterwall enregistrées"
+
+#~ msgid "Number of tweets to retrieve"
+#~ msgstr "Nombre de Tweets à récupérer"
+
+#~ msgctxt "Post Type General Name"
+#~ msgid "spam"
+#~ msgstr "spam"
+
+#~ msgctxt "Post Type Singular Name"
+#~ msgid "spams"
+#~ msgstr "spams"
+
+#~ msgid "Show a twitterwall for events"
+#~ msgstr "Afficher un mur de tweets pour vos événements"
+
+#~ msgid ""
+#~ "<a href=\"http://www.thierry-pigot.fr\">Thierry Pigot</a>, <a href="
+#~ "\"https://wabeo.fr/\">Willy Bahuaud</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.thierry-pigot.fr\">Thierry Pigot</a>, <a href="
+#~ "\"https://wabeo.fr/\">Willy Bahuaud</a>"

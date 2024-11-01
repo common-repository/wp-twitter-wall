@@ -1,0 +1,152 @@
+body.twitterwall-full {
+    overflow: scroll;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.twitterwall-full * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.twitter-wall-2 li {
+    list-style: none;
+    position: relative;
+    padding:2em 0;
+}
+
+.twitter-wall-2 li + li {
+    border-top: 1px solid #ccc;
+}
+
+.twitter-wall-2 .avatar {
+    float: left;
+    margin-right: 1em;
+}
+
+.twitter-wall-2 .text {
+    overflow: hidden;
+}
+
+.twitter-wall-2 .author {
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: #666;
+    font-size: 0.8em;
+}
+
+.twitterwall-full {
+    background-color: #F52F57;
+    padding: 1%;
+    overflow:scroll;
+}
+
+.twitter-wall-2 .buttons{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 1.75em;
+}
+
+.twitterwall-full .twitter-wall-2 .buttons{
+    top:-2em;
+}
+
+.twitter-wall-2 li:hover .buttons{
+    display:block;
+}
+
+.twitterwall-full .text > a{
+    text-decoration:none;
+}
+
+.twitter-wall-2 .rp-button,
+.twitter-wall-2 .rt-button {
+    color: #FAB9BA;
+    border-radius: 0;
+    border:none;
+    background-color: transparent;
+    display:inline-block;
+    outline:none;
+    position:relative;
+    padding:0 0 0 20px;
+    cursor:pointer;
+}
+
+.twitter-wall-2 .rt-button:before,
+.twitter-wall-2 .rp-button:before{
+    background-image: url(../img/reply.png);
+    background-size: 16px 16px;
+    top: 0;
+    left: 0;
+    margin-top:-2px;
+    height: 16px;
+    width: 16px;
+    content:'';
+    display:block;
+    position:absolute;
+    opacity:.8;
+}
+
+.twitter-wall-2 .rt-button:before{
+    background-image: url(../img/retweet.png);
+    margin-top:-1px;
+}
+
+.twitterwall-full ul,
+.twitterwall-full ol{
+    margin:0;
+    padding:0;
+}
+
+.twitterwall-full .twitter-wall-2 li {
+    /*overflow:hidden;*/
+    background: #FFF;
+    padding: 2em 1em 1em;
+    border-top: 21px solid #F52F57;
+    border-bottom: 21px solid #F52F57;
+    border-left: 11px solid #F52F57;
+    border-right: 11px solid #F52F57;
+    width: 24.95%;
+}
+
+.twitterwall-full .twitter-wall-2 li:after {
+    content: '';
+    position: relative;
+    clear: both;
+    display: block;
+}
+
+.twitterwall-full .avatar {
+    margin-right: 1em;
+    position: absolute;
+    top: -2.5em;
+    left: 1.25em;
+    border: 6px solid #7FB7BE;
+    border-radius: 50%;
+}
+
+.twitterwall-full .image-link a{
+    display:block;
+    text-align:center;
+}
+
+.twitter-wall-2 .text img {
+    margin-top: 1em;
+    max-height: 240px;
+    width:auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.twitterwall-full .text {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2em;
+}
+
+.twitterwall-full .author {
+    margin-bottom: 0.5em;
+}
